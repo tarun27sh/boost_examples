@@ -1,5 +1,4 @@
 cmake_minimum_required (VERSION 2.8.11)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project (boost_examples)
 
@@ -25,3 +24,4 @@ set(CMAKE_CXX_FLAGS "-std=c++2a")
 set(CMAKE_BUILD_TYPE Debug)
 
 add_subdirectory (interprocess)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
